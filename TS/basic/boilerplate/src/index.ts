@@ -12,3 +12,14 @@ class Person {
 
 const person = new Person('John', 30);
 console.log(person);
+
+var t = 1;
+t = 2;
+console.log(t);
+class Test {
+  push = (a: number) => {};
+}
+
+const x = [1, 2, 3];
+x[-1] = -1;
+x[x[x.indexOf(2)]] = 4;
